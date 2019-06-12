@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ayberk KÖSE</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div>
+
+        <!-- Start your project here-->
+        <header>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><strong><img src="img/logom.png" height="80px"></strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                            aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><b>Anasayfa</b><span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="iletisim.html"><b>İletişim</b></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar -->
+            <!-- Full Page Intro -->
+            <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                    <!-- Content -->
+                    <div class="container">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12 mb-4 white-text text-center">
+                                <!--Section: Contact v.2-->
+                                <div class="container">
+                                    <section class="mb-4">
+
+                                        <!--Section heading-->
+                                        <h2 class="h1-responsive font-weight-bold text-center my-4">Bana Ulaşın</h2>
+                                        <!--Section description-->
+                                        <p class="text-center w-responsive mx-auto mb-5">Aklınıza takılan bir şey mi var ? Hiç çekinmeden bana yazın, en kısa sürede geri dönüş sağlayacağım.</p>
+
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-9 mb-md-0 mb-5">
+                                                <form id="contact-form" name="contact-form" action="https://formspree.io/ayberkkose54@hotmail.com" method="POST">
+
+                                                    <!--Grid row-->
+                                                    <div class="row">
+
+                                                        <!--Grid column-->
+                                                        <div class="col-md-6">
+                                                            <div class="md-form mb-0">
+                                                                <input type="text" id="name" name="name" class="form-control">
+                                                                <label for="name" class="" style="color:white"><b>İsminiz</b></label>
+                                                            </div>
+                                                        </div>
+                                                        <!--Grid column-->
+                                                        <!--Grid column-->
+                                                        <div class="col-md-6">
+                                                            <div class="md-form mb-0">
+                                                                <input type="text" id="email" name="email" class="form-control">
+                                                                <label for="email" class="" style="color:white"><b>E-Postanız</b></label>
+                                                            </div>
+                                                        </div>
+                                                        <!--Grid column-->
+
+                                                    </div>
+                                                    <!--Grid row-->
+                                                    <!--Grid row-->
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="md-form mb-0">
+                                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                                <label for="subject" class="" style="color:white"><b>Konu</b></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--Grid row-->
+                                                    <!--Grid row-->
+                                                    <div class="row">
+
+                                                        <!--Grid column-->
+                                                        <div class="col-md-12">
+
+                                                            <div class="md-form">
+                                                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                                <label for="message" style="color:white"><b>Mesajınız</b></label>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <!--Grid row-->
+
+                                                </form>
+
+                                                <div class="text-center text-md-left">
+                                                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Gönder</a>
+                                                </div>
+                                                <div class="status"></div>
+                                            </div>
+                                            <!--Grid column-->
+                                            <!--Grid column-->
+                                            <div class="col-md-3 text-center">
+                                                <ul class="list-unstyled mb-0">
+                                                    <li>
+                                                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                                                        <p>Adapazari,Sakarya,Turkey</p>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="fas fa-phone mt-4 fa-2x"></i>
+                                                        <p>+90 531 978 36 18</p>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="fas fa-envelope mt-4 fa-2x"></i>
+                                                        <p>ayberkkose54@hotmail.com</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!--Grid column-->
+
+                                        </div>
+
+                                    </section>
+                                </div>
+                                <!--Section: Contact v.2-->
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <!-- Content -->
+                </div>
+                <!-- Mask & flexbox options-->
+            </div>
+            <!-- Full Page Intro -->
+        </header>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        @RenderBody()
+    </div>
+</body>
+</html>
